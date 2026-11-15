@@ -5,7 +5,7 @@
 #' Define the settings that by default are to be shared by all of the models in
 #' the model grid with \code{\link{share_settings}}. Add the individual
 #' specifications for the models you want to investigate with \code{\link{add_model}}.
-#' Train all of the models in the model grid with \code{\link{train}}.
+#' Train all of the models in the model grid with \code{\link[caret:train]{train}}.
 #'
 #' @return \code{model_grid}
 #'

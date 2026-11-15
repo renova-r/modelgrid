@@ -33,7 +33,7 @@ The model grid  makes it easy to create, manage and train multiple caret models.
 Define the settings that by default are to be shared by all of the models in
 the model grid with \code{\link{share_settings}}. Add the individual
 specifications for the models you want to investigate with \code{\link{add_model}}.
-Train all of the models in the model grid with \code{\link{train}}.
+Train all of the models in the model grid with \code{\link[caret:train]{train}}.
 
 The S3 method of the train function for the 'model_grid' class consolidates
 all model (and training) configurations from a model grid and

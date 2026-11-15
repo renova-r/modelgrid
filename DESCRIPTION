@@ -1,7 +1,7 @@
 Package: modelgrid
 Title: A Framework for Creating, Managing and Training Multiple 'caret'
         Models
-Version: 1.2.0
+Version: 1.2.0.9001
 Authors@R: 
   c(person(given = "Lars",
            family = "Kjeldgaard",
@@ -21,6 +21,7 @@ Description: A minimalistic but flexible framework that facilitates the
     first consolidated from the shared and the model specific settings into
     complete 'caret' model configurations. These models are then trained with
     the 'train()' function from the 'caret' package.
+    Compatibility updates by Renova.
 URL: https://github.com/smaakage85/modelgrid
 Depends: R (>= 3.4.0)
 License: MIT + file LICENSE
